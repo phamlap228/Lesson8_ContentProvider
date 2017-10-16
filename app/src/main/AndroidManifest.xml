@@ -16,6 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <provider
+            android:name="lap.hou.com.lesson8_contentprovinder.BookProvinder"
+            android:authorities="lap.hou.com.democontentprovider"
+            android:exported="true"
+            android:multiprocess="true" />
     </application>
 
 </manifest>
